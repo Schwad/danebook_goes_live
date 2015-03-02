@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static_pages/timeline'
+
   get 'static_pages/homepage'
 
   get 'static_pages/friends'
